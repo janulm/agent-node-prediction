@@ -1,0 +1,166 @@
+Running on host: tikgpu05
+In directory: /home/janulm/janulm_agent_nodes/traditional_gcn
+Starting on: Mon Jan 2 14:02:39 CET 2023
+SLURM_JOB_ID: 583505
+running  0  :  16 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  1  :  16 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.701
+running  2  :  16 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.706
+running  3  :  16 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  4  :  16 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.646
+running  5  :  16 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.694
+running  6  :  16 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.713
+running  7  :  16 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.684
+running  8  :  16 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.709
+running  9  :  16 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  10  :  16 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.718
+running  11  :  16 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.723
+running  12  :  16 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  13  :  16 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.682
+running  14  :  16 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.718
+running  15  :  16 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.713
+running  16  :  16 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.708
+running  17  :  16 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.729
+running  18  :  32 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  19  :  32 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.721
+running  20  :  32 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.72
+running  21  :  32 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  22  :  32 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.742
+running  23  :  32 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.634
+running  24  :  32 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.713
+running  25  :  32 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.721
+running  26  :  32 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.587
+running  27  :  32 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  28  :  32 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.741
+running  29  :  32 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.724
+running  30  :  32 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  31  :  32 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.752
+running  32  :  32 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.692
+running  33  :  32 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.713
+running  34  :  32 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.74
+running  35  :  32 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.623
+running  36  :  64 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  37  :  64 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.734
+running  38  :  64 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.748
+running  39  :  64 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  40  :  64 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.746
+running  41  :  64 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.74
+running  42  :  64 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.713
+running  43  :  64 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.729
+running  44  :  64 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.716
+running  45  :  64 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  46  :  64 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.767
+running  47  :  64 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.75
+running  48  :  64 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.733
+running  49  :  64 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.756
+running  50  :  64 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.747
+running  51  :  64 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.713
+running  52  :  64 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.723
+running  53  :  64 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-pubmed')
+test_acc:  0.742

@@ -1,0 +1,166 @@
+Running on host: tikgpu04
+In directory: /home/janulm/janulm_agent_nodes/traditional_gcn
+Starting on: Mon Jan 2 14:07:39 CET 2023
+SLURM_JOB_ID: 583524
+running  0  :  32 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5361397444602185
+running  1  :  32 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5233010308005679
+running  2  :  32 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5117996831471309
+running  3  :  32 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5145567146060943
+running  4  :  32 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5234244799703722
+running  5  :  32 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5078698845750262
+running  6  :  32 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.36135629487891696
+running  7  :  32 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.4913276958212456
+running  8  :  32 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.4911836717898072
+running  9  :  32 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5361397444602185
+running  10  :  32 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5305845318190235
+running  11  :  32 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5152974096249203
+running  12  :  32 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5145567146060943
+running  13  :  32 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5242474744357344
+running  14  :  32 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5183630640083945
+running  15  :  32 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.36135629487891696
+running  16  :  32 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.4942493261732815
+running  17  :  32 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.4956072670411292
+running  18  :  64 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5361397444602185
+running  19  :  64 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5314486760076539
+running  20  :  64 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5220871139641586
+running  21  :  64 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5145567146060943
+running  22  :  64 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5293294652593461
+running  23  :  64 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5108532395119643
+running  24  :  64 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.36135629487891696
+running  25  :  64 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5165113264613296
+running  26  :  64 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5100302450466021
+running  27  :  64 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5361397444602185
+running  28  :  64 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.541489208485073
+running  29  :  64 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5325597185358929
+running  30  :  64 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5145567146060943
+running  31  :  64 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5360574450136822
+running  32  :  64 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5259140382280929
+running  33  :  64 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.36135629487891696
+running  34  :  64 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5173343209266917
+running  35  :  64 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5103594428327469
+running  36  :  128 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5361397444602185
+running  37  :  128 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5359339958438779
+running  38  :  128 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5217784910396478
+running  39  :  128 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5145567146060943
+running  40  :  128 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.532971215768574
+running  41  :  128 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.518527662901467
+running  42  :  128 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.36135629487891696
+running  43  :  128 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5262638108758718
+running  44  :  128 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5219842396559883
+running  45  :  128 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5361397444602185
+running  46  :  128 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5468180976482934
+running  47  :  128 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5422093286422649
+running  48  :  128 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5145567146060943
+running  49  :  128 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5450898092710327
+running  50  :  128 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5395345966298377
+running  51  :  128 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.36135629487891696
+running  52  :  128 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5282184227311071
+running  53  :  128 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=128, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb-arxiv')
+test_acc:  0.5220665391025245

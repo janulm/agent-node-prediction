@@ -1,0 +1,166 @@
+Running on host: tikgpu05
+In directory: /home/janulm/janulm_agent_nodes/traditional_gcn
+Starting on: Mon Jan 2 13:59:39 CET 2023
+SLURM_JOB_ID: 583503
+running  0  :  16 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.746
+running  1  :  16 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.652
+running  2  :  16 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.624
+running  3  :  16 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.748
+running  4  :  16 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.671
+running  5  :  16 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.604
+running  6  :  16 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.737
+running  7  :  16 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.698
+running  8  :  16 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.627
+running  9  :  16 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.746
+running  10  :  16 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.666
+running  11  :  16 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.68
+running  12  :  16 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.748
+running  13  :  16 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.703
+running  14  :  16 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.654
+running  15  :  16 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.737
+running  16  :  16 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.702
+running  17  :  16 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.669
+running  18  :  32 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.746
+running  19  :  32 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.75
+running  20  :  32 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.713
+running  21  :  32 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.748
+running  22  :  32 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.732
+running  23  :  32 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.651
+running  24  :  32 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.737
+running  25  :  32 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.709
+running  26  :  32 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.681
+running  27  :  32 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.746
+running  28  :  32 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.699
+running  29  :  32 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.678
+running  30  :  32 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.748
+running  31  :  32 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.714
+running  32  :  32 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.701
+running  33  :  32 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.737
+running  34  :  32 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.719
+running  35  :  32 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=32, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.695
+running  36  :  64 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.746
+running  37  :  64 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.75
+running  38  :  64 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.739
+running  39  :  64 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.748
+running  40  :  64 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.744
+running  41  :  64 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.705
+running  42  :  64 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.737
+running  43  :  64 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.726
+running  44  :  64 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.701
+running  45  :  64 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.746
+running  46  :  64 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.772
+running  47  :  64 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.738
+running  48  :  64 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.748
+running  49  :  64 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.739
+running  50  :  64 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.706
+running  51  :  64 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.737
+running  52  :  64 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.738
+running  53  :  64 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=64, epochs=2000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='planetoid-cora')
+test_acc:  0.735

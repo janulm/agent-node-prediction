@@ -1,0 +1,320 @@
+Running on host: tikgpu09
+In directory: /home/janulm/janulm_agent_nodes/page_rank
+Starting on: Tue Jan 3 15:16:19 CET 2023
+SLURM_JOB_ID: 583753
+running  0  :  4 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.7683e-08, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  1  :  4 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(8.2144e-08, device='cuda:0') spear coeff:  tensor(0.8585, device='cuda:0')
+running  2  :  4 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(6.3433e-07, device='cuda:0') spear coeff:  tensor(0.9199, device='cuda:0')
+running  3  :  4 0.01 4 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(4.5253e-07, device='cuda:0') spear coeff:  tensor(0.0814, device='cuda:0')
+running  4  :  4 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  5  :  4 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.2860, device='cuda:0')
+running  6  :  4 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.4518e-07, device='cuda:0') spear coeff:  tensor(0.8114, device='cuda:0')
+running  7  :  4 0.001 4 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0014, device='cuda:0') spear coeff:  tensor(-0.0039, device='cuda:0')
+running  8  :  4 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0295, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  9  :  4 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0124, device='cuda:0') spear coeff:  tensor(0.3054, device='cuda:0')
+running  10  :  4 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.1351e-06, device='cuda:0') spear coeff:  tensor(0.7847, device='cuda:0')
+running  11  :  4 0.0001 4 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0035, device='cuda:0') spear coeff:  tensor(-0.0603, device='cuda:0')
+running  12  :  4 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.7681e-08, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  13  :  4 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(7.1554e-08, device='cuda:0') spear coeff:  tensor(0.8541, device='cuda:0')
+running  14  :  4 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.0770e-07, device='cuda:0') spear coeff:  tensor(0.7610, device='cuda:0')
+running  15  :  4 0.01 4 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(8.0549e-08, device='cuda:0') spear coeff:  tensor(0.3454, device='cuda:0')
+running  16  :  4 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  17  :  4 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.2841e-06, device='cuda:0') spear coeff:  tensor(0.5459, device='cuda:0')
+running  18  :  4 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(3.6462e-05, device='cuda:0') spear coeff:  tensor(0.7889, device='cuda:0')
+running  19  :  4 0.001 4 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(7.0973e-05, device='cuda:0') spear coeff:  tensor(0.2180, device='cuda:0')
+running  20  :  4 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0295, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  21  :  4 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0124, device='cuda:0') spear coeff:  tensor(0.3053, device='cuda:0')
+running  22  :  4 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.8463, device='cuda:0')
+running  23  :  4 0.0001 4 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0019, device='cuda:0') spear coeff:  tensor(0.0871, device='cuda:0')
+running  24  :  8 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.7682e-08, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  25  :  8 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(3.1106e-07, device='cuda:0') spear coeff:  tensor(0.9597, device='cuda:0')
+running  26  :  8 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.2347e-06, device='cuda:0') spear coeff:  tensor(0.4270, device='cuda:0')
+running  27  :  8 0.01 4 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.4204e-05, device='cuda:0') spear coeff:  tensor(0.9815, device='cuda:0')
+running  28  :  8 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  29  :  8 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(8.7150e-06, device='cuda:0') spear coeff:  tensor(0.9595, device='cuda:0')
+running  30  :  8 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.3758e-05, device='cuda:0') spear coeff:  tensor(0.3419, device='cuda:0')
+running  31  :  8 0.001 4 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0014, device='cuda:0') spear coeff:  tensor(0.9717, device='cuda:0')
+running  32  :  8 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0295, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  33  :  8 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.9594, device='cuda:0')
+running  34  :  8 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.8594e-05, device='cuda:0') spear coeff:  tensor(0.1020, device='cuda:0')
+running  35  :  8 0.0001 4 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0023, device='cuda:0') spear coeff:  tensor(0.9708, device='cuda:0')
+running  36  :  8 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.7681e-08, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  37  :  8 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(5.6168e-08, device='cuda:0') spear coeff:  tensor(0.9597, device='cuda:0')
+running  38  :  8 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(4.2060e-08, device='cuda:0') spear coeff:  tensor(0.9666, device='cuda:0')
+running  39  :  8 0.01 4 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(6.8955e-07, device='cuda:0') spear coeff:  tensor(0.9864, device='cuda:0')
+running  40  :  8 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  41  :  8 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.6791e-05, device='cuda:0') spear coeff:  tensor(0.9595, device='cuda:0')
+running  42  :  8 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.0085e-05, device='cuda:0') spear coeff:  tensor(0.3463, device='cuda:0')
+running  43  :  8 0.001 4 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.9755, device='cuda:0')
+running  44  :  8 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0295, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  45  :  8 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.9594, device='cuda:0')
+running  46  :  8 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.9026e-05, device='cuda:0') spear coeff:  tensor(0.0441, device='cuda:0')
+running  47  :  8 0.0001 4 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0009, device='cuda:0') spear coeff:  tensor(0.9767, device='cuda:0')
+running  48  :  16 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.7683e-08, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  49  :  16 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.2610e-07, device='cuda:0') spear coeff:  tensor(0.8643, device='cuda:0')
+running  50  :  16 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(8.1044e-06, device='cuda:0') spear coeff:  tensor(0.9727, device='cuda:0')
+running  51  :  16 0.01 4 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.1566e-05, device='cuda:0') spear coeff:  tensor(0.0647, device='cuda:0')
+running  52  :  16 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  53  :  16 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.0420e-05, device='cuda:0') spear coeff:  tensor(0.4242, device='cuda:0')
+running  54  :  16 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.9726e-05, device='cuda:0') spear coeff:  tensor(0.9826, device='cuda:0')
+running  55  :  16 0.001 4 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0003, device='cuda:0') spear coeff:  tensor(0.0823, device='cuda:0')
+running  56  :  16 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0295, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  57  :  16 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(6.5515e-05, device='cuda:0') spear coeff:  tensor(-0.0563, device='cuda:0')
+running  58  :  16 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(9.0134e-05, device='cuda:0') spear coeff:  tensor(0.9823, device='cuda:0')
+running  59  :  16 0.0001 4 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0012, device='cuda:0') spear coeff:  tensor(0.3880, device='cuda:0')
+running  60  :  16 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(1.7682e-08, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  61  :  16 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(3.4441e-07, device='cuda:0') spear coeff:  tensor(0.8012, device='cuda:0')
+running  62  :  16 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(5.1014e-08, device='cuda:0') spear coeff:  tensor(0.9582, device='cuda:0')
+running  63  :  16 0.01 4 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(6.1714e-08, device='cuda:0') spear coeff:  tensor(0.3218, device='cuda:0')
+running  64  :  16 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0004, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  65  :  16 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(2.9264e-05, device='cuda:0') spear coeff:  tensor(0.9632, device='cuda:0')
+running  66  :  16 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0001, device='cuda:0') spear coeff:  tensor(0.9800, device='cuda:0')
+running  67  :  16 0.001 4 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0005, device='cuda:0') spear coeff:  tensor(0.3520, device='cuda:0')
+running  68  :  16 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0295, device='cuda:0') spear coeff:  tensor(0.7409, device='cuda:0')
+running  69  :  16 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0011, device='cuda:0') spear coeff:  tensor(0.0287, device='cuda:0')
+running  70  :  16 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(5.9715e-05, device='cuda:0') spear coeff:  tensor(0.9808, device='cuda:0')
+running  71  :  16 0.0001 4 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='cora')
+test_loss:  tensor(0.0007, device='cuda:0') spear coeff:  tensor(0.3552, device='cuda:0')
+--------------------
+[4, 8, 16] [0.0, 0.3] [0.01, 0.001, 0.0001] [1, 2, 3, 4]
+--------------------
+[[[[[ 1.76831705e-08  7.40896285e-01]
+    [ 8.21438775e-08  8.58453751e-01]
+    [ 6.34332423e-07  9.19870675e-01]
+    [ 4.52530259e-07  8.13823342e-02]]
+
+   [[ 3.69882851e-04  7.40873337e-01]
+    [ 2.04097858e-04  2.85981953e-01]
+    [ 1.45175818e-07  8.11420858e-01]
+    [ 1.36539026e-03 -3.94964218e-03]]
+
+   [[ 2.94510238e-02  7.40880728e-01]
+    [ 1.23964734e-02  3.05402219e-01]
+    [ 2.13513749e-06  7.84680247e-01]
+    [ 3.49713280e-03 -6.03208542e-02]]]
+
+
+  [[[ 1.76811525e-08  7.40895152e-01]
+    [ 7.15543749e-08  8.54134321e-01]
+    [ 2.07702598e-07  7.60954440e-01]
+    [ 8.05488654e-08  3.45388889e-01]]
+
+   [[ 3.69882851e-04  7.40864515e-01]
+    [ 2.28409067e-06  5.45920432e-01]
+    [ 3.64617263e-05  7.88899124e-01]
+    [ 7.09733504e-05  2.17998445e-01]]
+
+   [[ 2.94510256e-02  7.40881801e-01]
+    [ 1.23596229e-02  3.05262446e-01]
+    [ 1.56678769e-04  8.46345782e-01]
+    [ 1.86122162e-03  8.70689750e-02]]]]
+
+
+
+ [[[[ 1.76820372e-08  7.40895152e-01]
+    [ 3.11060887e-07  9.59680676e-01]
+    [ 2.23469965e-06  4.26958501e-01]
+    [ 1.42043864e-05  9.81512427e-01]]
+
+   [[ 3.69882851e-04  7.40882158e-01]
+    [ 8.71499105e-06  9.59528148e-01]
+    [ 2.37579115e-05  3.41858685e-01]
+    [ 1.36841659e-03  9.71711695e-01]]
+
+   [[ 2.94510256e-02  7.40881979e-01]
+    [ 4.48381645e-04  9.59411561e-01]
+    [ 2.85944425e-05  1.02038801e-01]
+    [ 2.31127604e-03  9.70770240e-01]]]
+
+
+  [[[ 1.76809465e-08  7.40897536e-01]
+    [ 5.61683215e-08  9.59685743e-01]
+    [ 4.20602255e-08  9.66609716e-01]
+    [ 6.89547846e-07  9.86413002e-01]]
+
+   [[ 3.69882851e-04  7.40873337e-01]
+    [ 1.67905528e-05  9.59544480e-01]
+    [ 2.00851118e-05  3.46307993e-01]
+    [ 2.45755218e-04  9.75454271e-01]]
+
+   [[ 2.94510238e-02  7.40872145e-01]
+    [ 4.40205884e-04  9.59434807e-01]
+    [ 2.90261141e-05  4.41134572e-02]
+    [ 9.49476613e-04  9.76661444e-01]]]]
+
+
+
+ [[[[ 1.76831687e-08  7.40880489e-01]
+    [ 1.26100090e-07  8.64273369e-01]
+    [ 8.10435358e-06  9.72664118e-01]
+    [ 2.15664168e-05  6.47335649e-02]]
+
+   [[ 3.69882851e-04  7.40879059e-01]
+    [ 1.04196115e-05  4.24217343e-01]
+    [ 1.97255777e-05  9.82629299e-01]
+    [ 3.34230252e-04  8.22759271e-02]]
+
+   [[ 2.94510256e-02  7.40877151e-01]
+    [ 6.55146432e-05 -5.62565327e-02]
+    [ 9.01344174e-05  9.82316673e-01]
+    [ 1.20948511e-03  3.87997687e-01]]]
+
+
+  [[[ 1.76823427e-08  7.40900755e-01]
+    [ 3.44409131e-07  8.01214993e-01]
+    [ 5.10140588e-08  9.58239079e-01]
+    [ 6.17135427e-08  3.21763337e-01]]
+
+   [[ 3.69882851e-04  7.40882635e-01]
+    [ 2.92640125e-05  9.63217676e-01]
+    [ 1.37835450e-04  9.80000019e-01]
+    [ 4.61104180e-04  3.52019191e-01]]
+
+   [[ 2.94510238e-02  7.40879357e-01]
+    [ 1.12623582e-03  2.86663175e-02]
+    [ 5.97154467e-05  9.80804563e-01]
+    [ 7.18092837e-04  3.55187953e-01]]]]]
+finished at: Tue Jan 3 15:30:13 CET 2023

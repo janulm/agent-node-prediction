@@ -1,0 +1,324 @@
+Running on host: tikgpu09
+In directory: /home/janulm/janulm_agent_nodes/page_rank
+Starting on: Tue Jan 3 16:24:03 CET 2023
+SLURM_JOB_ID: 583781
+alive1
+alive2
+alive3
+alive4
+running  0  :  4 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.6911e-11, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  1  :  4 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.2343e-06, device='cuda:0') spear coeff:  tensor(0.2901, device='cuda:0')
+running  2  :  4 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(4.8173e-08, device='cuda:0') spear coeff:  tensor(0.2316, device='cuda:0')
+running  3  :  4 0.01 4 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.1093e-07, device='cuda:0') spear coeff:  tensor(0.2872, device='cuda:0')
+running  4  :  4 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3536e-08, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  5  :  4 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0003, device='cuda:0') spear coeff:  tensor(0.2569, device='cuda:0')
+running  6  :  4 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(4.3959e-07, device='cuda:0') spear coeff:  tensor(0.3162, device='cuda:0')
+running  7  :  4 0.001 4 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(3.7843e-05, device='cuda:0') spear coeff:  tensor(0.1096, device='cuda:0')
+running  8  :  4 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0824, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  9  :  4 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0031, device='cuda:0') spear coeff:  tensor(-0.0435, device='cuda:0')
+running  10  :  4 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(7.2616e-05, device='cuda:0') spear coeff:  tensor(0.3163, device='cuda:0')
+running  11  :  4 0.0001 4 0.0
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0019, device='cuda:0') spear coeff:  tensor(0.0170, device='cuda:0')
+running  12  :  4 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.6911e-11, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  13  :  4 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.4075e-06, device='cuda:0') spear coeff:  tensor(0.2887, device='cuda:0')
+running  14  :  4 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(9.9159e-09, device='cuda:0') spear coeff:  tensor(0.3193, device='cuda:0')
+running  15  :  4 0.01 4 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.5500e-07, device='cuda:0') spear coeff:  tensor(0.2957, device='cuda:0')
+running  16  :  4 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3536e-08, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  17  :  4 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.2597, device='cuda:0')
+running  18  :  4 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.3164, device='cuda:0')
+running  19  :  4 0.001 4 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(7.2339e-05, device='cuda:0') spear coeff:  tensor(0.2695, device='cuda:0')
+running  20  :  4 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0824, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  21  :  4 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0031, device='cuda:0') spear coeff:  tensor(-0.0421, device='cuda:0')
+running  22  :  4 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0007, device='cuda:0') spear coeff:  tensor(0.3164, device='cuda:0')
+running  23  :  4 0.0001 4 0.3
+Namespace(device=0, seed=0, hidden_units=4, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(7.2113e-06, device='cuda:0') spear coeff:  tensor(0.2451, device='cuda:0')
+running  24  :  8 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.6912e-11, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  25  :  8 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.2944e-08, device='cuda:0') spear coeff:  tensor(0.3136, device='cuda:0')
+running  26  :  8 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.6475e-06, device='cuda:0') spear coeff:  tensor(0.2529, device='cuda:0')
+running  27  :  8 0.01 4 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(9.2389e-06, device='cuda:0') spear coeff:  tensor(0.3184, device='cuda:0')
+running  28  :  8 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3536e-08, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  29  :  8 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0003, device='cuda:0') spear coeff:  tensor(0.3124, device='cuda:0')
+running  30  :  8 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.8298e-05, device='cuda:0') spear coeff:  tensor(0.3007, device='cuda:0')
+running  31  :  8 0.001 4 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(7.6417e-05, device='cuda:0') spear coeff:  tensor(0.3197, device='cuda:0')
+running  32  :  8 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0824, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  33  :  8 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0008, device='cuda:0') spear coeff:  tensor(0.3126, device='cuda:0')
+running  34  :  8 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0026, device='cuda:0') spear coeff:  tensor(0.2975, device='cuda:0')
+running  35  :  8 0.0001 4 0.0
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0038, device='cuda:0') spear coeff:  tensor(0.3198, device='cuda:0')
+running  36  :  8 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.6911e-11, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  37  :  8 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.6326e-06, device='cuda:0') spear coeff:  tensor(0.3064, device='cuda:0')
+running  38  :  8 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(3.9342e-11, device='cuda:0') spear coeff:  tensor(0.2541, device='cuda:0')
+running  39  :  8 0.01 4 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.3275e-08, device='cuda:0') spear coeff:  tensor(0.3177, device='cuda:0')
+running  40  :  8 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3536e-08, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  41  :  8 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(8.4071e-05, device='cuda:0') spear coeff:  tensor(0.3123, device='cuda:0')
+running  42  :  8 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.1388e-06, device='cuda:0') spear coeff:  tensor(0.3104, device='cuda:0')
+running  43  :  8 0.001 4 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(6.2124e-05, device='cuda:0') spear coeff:  tensor(0.3180, device='cuda:0')
+running  44  :  8 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0824, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  45  :  8 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.3125, device='cuda:0')
+running  46  :  8 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0026, device='cuda:0') spear coeff:  tensor(0.1992, device='cuda:0')
+running  47  :  8 0.0001 4 0.3
+Namespace(device=0, seed=0, hidden_units=8, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0019, device='cuda:0') spear coeff:  tensor(0.3171, device='cuda:0')
+running  48  :  16 0.01 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.6911e-11, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  49  :  16 0.01 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(5.3999e-08, device='cuda:0') spear coeff:  tensor(0.2368, device='cuda:0')
+running  50  :  16 0.01 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3133e-06, device='cuda:0') spear coeff:  tensor(0.3151, device='cuda:0')
+running  51  :  16 0.01 4 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.7957e-06, device='cuda:0') spear coeff:  tensor(0.3136, device='cuda:0')
+running  52  :  16 0.001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3536e-08, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  53  :  16 0.001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(8.0265e-05, device='cuda:0') spear coeff:  tensor(0.2462, device='cuda:0')
+running  54  :  16 0.001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(7.2467e-06, device='cuda:0') spear coeff:  tensor(0.3152, device='cuda:0')
+running  55  :  16 0.001 4 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.1652e-05, device='cuda:0') spear coeff:  tensor(0.3122, device='cuda:0')
+running  56  :  16 0.0001 1 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0824, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  57  :  16 0.0001 2 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0071, device='cuda:0') spear coeff:  tensor(0.0851, device='cuda:0')
+running  58  :  16 0.0001 3 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(3.0153e-05, device='cuda:0') spear coeff:  tensor(0.3169, device='cuda:0')
+running  59  :  16 0.0001 4 0.0
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.0, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0007, device='cuda:0') spear coeff:  tensor(0.3140, device='cuda:0')
+running  60  :  16 0.01 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.6912e-11, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  61  :  16 0.01 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(3.1574e-07, device='cuda:0') spear coeff:  tensor(0.3248, device='cuda:0')
+running  62  :  16 0.01 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.0593e-06, device='cuda:0') spear coeff:  tensor(0.3166, device='cuda:0')
+running  63  :  16 0.01 4 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.01, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(1.3576e-07, device='cuda:0') spear coeff:  tensor(0.3102, device='cuda:0')
+running  64  :  16 0.001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.3536e-08, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  65  :  16 0.001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(9.4823e-06, device='cuda:0') spear coeff:  tensor(0.3159, device='cuda:0')
+running  66  :  16 0.001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0002, device='cuda:0') spear coeff:  tensor(0.3154, device='cuda:0')
+running  67  :  16 0.001 4 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(2.7632e-05, device='cuda:0') spear coeff:  tensor(0.3122, device='cuda:0')
+running  68  :  16 0.0001 1 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=1, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0824, device='cuda:0') spear coeff:  tensor(0.2852, device='cuda:0')
+running  69  :  16 0.0001 2 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=2, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0071, device='cuda:0') spear coeff:  tensor(0.2904, device='cuda:0')
+running  70  :  16 0.0001 3 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=3, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0005, device='cuda:0') spear coeff:  tensor(0.3169, device='cuda:0')
+running  71  :  16 0.0001 4 0.3
+Namespace(device=0, seed=0, hidden_units=16, epochs=5000, total_num_layers=4, training_dropout_rate=0.3, lr=0.0001, weight_decay=0.01, job_id=111, dataset='ogb_arxiv')
+test_loss:  tensor(0.0003, device='cuda:0') spear coeff:  tensor(0.3174, device='cuda:0')
+--------------------
+[4, 8, 16] [0.0, 0.3] [0.01, 0.001, 0.0001] [1, 2, 3, 4]
+--------------------
+[[[[[ 2.69105658e-11  2.85161972e-01]
+    [ 1.23425184e-06  2.90104032e-01]
+    [ 4.81726872e-08  2.31634438e-01]
+    [ 1.10925804e-07  2.87151456e-01]]
+
+   [[ 2.35364759e-08  2.85165608e-01]
+    [ 3.33218137e-04  2.56879389e-01]
+    [ 4.39589968e-07  3.16223800e-01]
+    [ 3.78433651e-05  1.09608293e-01]]
+
+   [[ 8.24315026e-02  2.85171151e-01]
+    [ 3.10981576e-03 -4.35094833e-02]
+    [ 7.26156577e-05  3.16334009e-01]
+    [ 1.91143155e-03  1.70265436e-02]]]
+
+
+  [[[ 2.69105658e-11  2.85166085e-01]
+    [ 1.40747227e-06  2.88687944e-01]
+    [ 9.91586813e-09  3.19308698e-01]
+    [ 1.54997963e-07  2.95707464e-01]]
+
+   [[ 2.35362911e-08  2.85167217e-01]
+    [ 1.90418068e-04  2.59735703e-01]
+    [ 1.63204968e-04  3.16412389e-01]
+    [ 7.23389603e-05  2.69510567e-01]]
+
+   [[ 8.24315026e-02  2.85158694e-01]
+    [ 3.12958541e-03 -4.21097279e-02]
+    [ 6.55280775e-04  3.16429138e-01]
+    [ 7.21130164e-06  2.45149791e-01]]]]
+
+
+
+ [[[[ 2.69117471e-11  2.85162032e-01]
+    [ 1.29439108e-08  3.13589156e-01]
+    [ 1.64747394e-06  2.52885222e-01]
+    [ 9.23894549e-06  3.18365157e-01]]
+
+   [[ 2.35357565e-08  2.85160780e-01]
+    [ 3.12111224e-04  3.12412262e-01]
+    [ 1.82977819e-05  3.00674796e-01]
+    [ 7.64168799e-05  3.19675565e-01]]
+
+   [[ 8.24315026e-02  2.85163939e-01]
+    [ 8.06539319e-04  3.12574506e-01]
+    [ 2.62601394e-03  2.97473073e-01]
+    [ 3.76128615e-03  3.19768667e-01]]]
+
+
+  [[[ 2.69105658e-11  2.85168588e-01]
+    [ 1.63256220e-06  3.06384921e-01]
+    [ 3.93417660e-11  2.54072785e-01]
+    [ 1.32752715e-08  3.17723513e-01]]
+
+   [[ 2.35363213e-08  2.85159290e-01]
+    [ 8.40705470e-05  3.12319219e-01]
+    [ 1.13875797e-06  3.10398519e-01]
+    [ 6.21235158e-05  3.17962110e-01]]
+
+   [[ 8.24315026e-02  2.85165906e-01]
+    [ 2.45303236e-04  3.12545061e-01]
+    [ 2.58857454e-03  1.99249625e-01]
+    [ 1.85353286e-03  3.17149103e-01]]]]
+
+
+
+ [[[[ 2.69108815e-11  2.85157502e-01]
+    [ 5.39990630e-08  2.36827672e-01]
+    [ 2.31327635e-06  3.15105677e-01]
+    [ 2.79571509e-06  3.13585341e-01]]
+
+   [[ 2.35357707e-08  2.85164475e-01]
+    [ 8.02649374e-05  2.46203601e-01]
+    [ 7.24673328e-06  3.15171003e-01]
+    [ 1.16523461e-05  3.12202573e-01]]
+
+   [[ 8.24315026e-02  2.85168171e-01]
+    [ 7.12880027e-03  8.50868225e-02]
+    [ 3.01529581e-05  3.16903889e-01]
+    [ 6.83363643e-04  3.13997865e-01]]]
+
+
+  [[[ 2.69116951e-11  2.85168469e-01]
+    [ 3.15744074e-07  3.24799716e-01]
+    [ 1.05930883e-06  3.16648901e-01]
+    [ 1.35761994e-07  3.10217321e-01]]
+
+   [[ 2.35361046e-08  2.85170197e-01]
+    [ 9.48231445e-06  3.15931857e-01]
+    [ 1.88041144e-04  3.15357029e-01]
+    [ 2.76321298e-05  3.12239766e-01]]
+
+   [[ 8.24315026e-02  2.85164535e-01]
+    [ 7.09702214e-03  2.90432692e-01]
+    [ 5.32694336e-04  3.16917300e-01]
+    [ 3.48291767e-04  3.17389131e-01]]]]]
+finished at: Tue Jan 3 16:36:12 CET 2023

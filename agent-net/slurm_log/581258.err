@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/janulm/janulm_agent_nodes/agent-net/pub_med.py", line 199, in <module>
+    print("max result test acc: ",results[np.argmax(results)],np.argmax(results))
+IndexError: index 2547 is out of bounds for axis 0 with size 3
